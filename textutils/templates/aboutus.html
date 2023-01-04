@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ .bg {
+  background: lightgrey repeat;
+}
+.slide-up-now {
+  opacity: 0;
+  -webkit-animation: slide-up 0.5s cubic-bezier(0.4, 0, 0.2, 1) 100ms forwards;
+}
+
+
+@-webkit-keyframes slide-up {
+        /* 0% { -webkit-transform: translateY(100%); opacity: 1 } */
+        100% { -webkit-transform: translateY(0); opacity: 1  }
+}
+
+div.transbox {
+text-align: center;
+margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #f5f5f5;
+  /* border: 1px solid black; */
+  opacity: 0.8;
+  width:69%;
+  height:auto;
+  border-radius: 8px 8px 8px 8px;
+  color: #3e2093;
+  box-shadow: 10px 10px 8px #888888;
+}
+
+div.transbox p {
+    margin: 3px;
+  font-weight: bold;
+  color: #000000;
+  font-size: 24px;
+}
+
+</style>
+</head>
+<body class="bg">
+
+<!-- <div class="background"> -->
+    <div class="slide-up-now">
+  <div class="transbox">
+    <div>
+    <h1><strong><u><font size="30">About Us</font></u></strong></h1><br><br></div>
+    <div>
+        <p>This is me , Nikhil Chadha currently pursuing my Btech. Second year in Thapar University,Patiala 
+            <br>I thought of learing web development during my second semester.<br><br></p>
+        
+        <p>In the beginning when i started to learn web development I felt like it is difficult to create<br> web pages but gradually 
+            I started developing interest in web development and felt good when created <br>web pages on my own. <br><br></p>
+
+        <p>This is my first created text utility website. I had a basic knowledge about python, Considering that <br>I started learning Django.</p><br>
+        <p>I think Django is such a great frame work which helps to create websites very easily.<br> Moreover Django doesnot require even much prior 
+            knowledge to python language.
+        </p><br>
+        <p>So, That's all about me, How I started to develop and create webpages and i hope that I'll keeping making the same in coming future.</p>
+    </div>
+  </div>
+</div>
+<!-- </div> -->
+
+
+
+</body>
+</html>
