@@ -1,7 +1,7 @@
 # I have created this file on my own (views.py)
 from django.http import HttpResponse
 from django.shortcuts import render
-from simple_colors import *
+# from simple_colors import *
 
 #CODE FOR MAKING WEBSITES NAVIGATION PAGES
 
